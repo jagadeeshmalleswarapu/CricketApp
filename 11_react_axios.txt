@@ -1,0 +1,70 @@
+To make hHttp request from the react app to the rest api (CRUD):
+
+	- Fetch api
+	- axios
+
+	- Are helpful in making http requests to the rest end points
+	- Spring boot to create rest apis
+
+Steps:
+
+	- Install axios 
+		- npm install axios
+
+	- Import axios in the App.js file
+		import axios from 'axios'
+
+
+	- Create the axios baseUrl and create a reference
+
+	const api = axios.create({
+  		baseURL: `https://localhost:3000/posts/`
+	})
+
+	- Create the array inside the state:
+
+		state = {
+   			comments:[]
+  		}
+	
+	- Create an async function to retrieve the data:
+
+		getComments = () => {
+		    // let data  = api.get(`/`).then(res=>{
+    		    //   this.setState({
+    		    //     comments: res.data
+    		    //   })
+    		    // })
+
+	- Create a method to insert record:
+
+	createComment = async ()=>{
+    	let res = await api.post(`/`, {
+      		"userId":8080,
+      		"id":556,
+      		"title":"Ponniyin Selvan",
+      		"body":"Good Novel"
+    	})
+
+	- Create a method to delete a record:
+
+	 deleteComment = async (id) => {
+    		let data = await api.delete(`/$id`)
+    		this.getComments()
+    		console.log(data);
+  		}
+
+	
+	- Render the data from the render method:
+
+	 <button onClick={this.createComment}>Post Comment</button>
+          {
+            // this.state.comments.map(comment => <li key={comment.id}> {comment.title} <button onClick={()=>this.deleteComment(comment.id)}>X</button> </li>)
+          } 
+
+
+    let data = await api.get(`/`).then(({data})=> data )
+    this.setState({
+      comments: data
+    })
+  }

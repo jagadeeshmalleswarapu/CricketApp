@@ -1,0 +1,521 @@
+==============cardsmain============
+
+[
+    {
+        "id": 1,
+        "fullName": "Virat Kholi",
+        "majorTeam": "RCB",
+        "img": "https://c.ndtvimg.com/2020-05/tkqluj48_virat-kohli-afp_625x300_30_May_20.jpg?output-quality=80&downsize=1278:*",
+        "countryName": "INDIA"
+    },
+    {
+        "id": 2,
+        "fullName": "MS Dhoni",
+        "majorTeam": "CSK",
+        "img": "https://cricketaddictor.gumlet.io/wp-content/uploads/2021/07/MS-Dhoni-6.jpg?compress=true&quality=80&w=640&dpr=1.0",
+        "countryName": "INDIA"
+    },
+    {
+        "id": 31,
+        "fullName": "Aron Finch",
+        "majorTeam": "KKR",
+        "img": "https://resources.pulse.icc-cricket.com/ICC/photo/2018/07/03/10467f61-4d4d-4e79-a375-bf72c3339213/GettyImages-990526642.jpg",
+        "countryName": "Australia"
+    },
+    {
+        "id": 32,
+        "fullName": "Dvic warner",
+        "majorTeam": "DC",
+        "img": "https://images1.livehindustan.com/uploadimage/library/2022/02/13/16_9/16_9_1/david_warner_delhi_capitals_twitter_1644725294.jpg",
+        "countryName": "Australia"
+    },
+    {
+        "id": 33,
+        "fullName": "Marcus Stonis",
+        "majorTeam": "LSG",
+        "img": "https://cdn-wp.thesportsrush.com/2022/03/25a655ac-stoinis-not-playing-.jpg",
+        "countryName": "Australia"
+    },
+    {
+        "id": 34,
+        "fullName": "Hazelwood",
+        "majorTeam": "RCB",
+        "img": "https://cricketaddictor.gumlet.io/wp-content/uploads/2022/04/Josh-Hazlewood-1.jpg?compress=true&quality=80&w=640&dpr=1.0",
+        "countryName": "Australia"
+    },
+    {
+        "id": 35,
+        "fullName": "Maxwell",
+        "majorTeam": "RCB",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKaK16vrXZh9e9CfWTmelrv2SNBgVdUDQejA&usqp=CAU",
+        "countryName": "Australia"
+    },
+    {
+        "id": 36,
+        "fullName": "Russel",
+        "majorTeam": "KKR",
+        "img": "https://www.mykhel.com/img/2019/04/andrerussell-1556479475.jpg",
+        "countryName": "Westindes"
+    },
+    {
+        "id": 37,
+        "fullName": "Narine",
+        "majorTeam": "KKR",
+        "img": "https://static.toiimg.com/thumb/msid-68485854,imgsize-416929,width-400,resizemode-4/68485854.jpg",
+        "countryName": "Westindes"
+    },
+    {
+        "id": 38,
+        "fullName": "pollard",
+        "majorTeam": "MI",
+        "img": "https://images.news18.com/ibnlive/uploads/2022/05/rohit-sharma-explains-why-kieron-pollard-was-dropped-from-playing-xi-against-csk.jpg",
+        "countryName": "Westindes"
+    },
+    {
+        "id": 39,
+        "fullName": "pooran",
+        "majorTeam": "SRH",
+        "img": "https://cricketaddictor.gumlet.io/wp-content/uploads/2021/12/pooran.jpg?compress=true&quality=80&w=700&dpr=1.0",
+        "countryName": "Westindes"
+    },
+    {
+        "id": 40,
+        "fullName": "Hetmeyr",
+        "majorTeam": "RR",
+        "img": "https://www.thestatesman.com/wp-content/uploads/2022/05/shim.jpeg",
+        "countryName": "Westindes"
+    },
+    {
+        "id": 41,
+        "fullName": "Devilllers",
+        "majorTeam": "RCB",
+        "img": "https://pbs.twimg.com/media/E3SM_u3VEAQh8ij.jpg:large",
+        "countryName": "SouthAfrica"
+    },
+    {
+        "id": 42,
+        "fullName": "De cock",
+        "majorTeam": "LSG",
+        "img": "https://images.tv9marathi.com/wp-content/uploads/2021/10/26223128/quinton-de-kock.jpg",
+        "countryName": "SouthAfrica"
+    },
+    {
+        "id": 43,
+        "fullName": "Dussen",
+        "majorTeam": "RR",
+        "img": "https://caughtatpoint.com/wp-content/uploads/2020/02/Rassie-van-der-Dussen.jpg",
+        "countryName": "SouthAfrica"
+    },
+    {
+        "id": 44,
+        "fullName": "Duplesis",
+        "majorTeam": "RCB",
+        "img": "https://www.crictracker.com/wp-content/uploads/2022/04/Faf-du-Plessis-2.jpg",
+        "countryName": "SouthAfrica"
+    },
+    {
+        "id": 45,
+        "fullName": "Dale steyn",
+        "majorTeam": "SRH",
+        "img": "https://resources.pulse.icc-cricket.com/ICC/photo/2019/05/22/52016133-b832-43d4-a155-327e6822e5a7/Dale-Steyn.jpg",
+        "countryName": "SouthAfrica"
+    },
+    {
+        "id": 46,
+        "fullName": "Hasaranga",
+        "majorTeam": "RCB",
+        "img": "https://circleofcricket.com/post_image/post_image_76929b7.jpg",
+        "countryName": "sri lanka"
+    },
+    {
+        "id": 47,
+        "fullName": "Rashid Khan",
+        "majorTeam": "GT",
+        "img": "https://images.hindustantimes.com/img/2022/05/28/1600x900/PTI05-19-2022-000303A-0_1653754014603_1653754033454.jpg",
+        "countryName": "Afganistan"
+    },
+    {
+        "id": 48,
+        "fullName": "Ferguson",
+        "majorTeam": "GT",
+        "img": "https://images.tv9hindi.com/wp-content/uploads/2022/04/lockie-ferguson.jpg",
+        "countryName": "NZ"
+    },
+    {
+        "id": 49,
+        "fullName": "Brevis",
+        "majorTeam": "MI",
+        "img": "https://c.ndtvimg.com/2022-04/sqe2j8a8_brevis-bcci-ipl_625x300_17_April_22.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675",
+        "countryName": "SouthAfrica"
+    },
+    {
+        "id": 50,
+        "fullName": "Bravo DJ",
+        "majorTeam": "CSK",
+        "img": "https://feeds.abplive.com/onecms/images/uploaded-images/2022/04/22/f550bfa517192b2b17d63a02b6d66832_original.jpg?impolicy=abp_cdn&imwidth=1200&imheight=628",
+        "countryName": "Westindes"
+    }
+]
+
+
+
+=========Stat================================================================
+
+[
+    {
+        "id": 1,
+        "fullName": "Virat Kohli",
+        "country": "India",
+        "role": "Batsmen",
+        "matches": 240,
+        "runs": 15000,
+        "average": 49.8,
+        "strike": 150.2,
+        "hundreds": 70,
+        "fiftys": 88,
+        "wickets": 3,
+        "eco": 12.4,
+        "best": 174,
+        "baverage": 0.0
+    },
+    {
+        "id": 2,
+        "fullName": "Aaron Finch",
+        "country": "Australia",
+        "role": "Batsmen",
+        "matches": 210,
+        "runs": 6500,
+        "average": 40.0,
+        "strike": 139.2,
+        "hundreds": 10,
+        "fiftys": 24,
+        "wickets": 0,
+        "eco": 15.0,
+        "best": 5,
+        "baverage": 0.0
+    },
+    {
+        "id": 3,
+        "fullName": "David Warner",
+        "country": "Australia",
+        "role": "Batsmen",
+        "matches": 179,
+        "runs": 5300,
+        "average": 67.0,
+        "strike": 122.4,
+        "hundreds": 17,
+        "fiftys": 35,
+        "wickets": 0,
+        "eco": 0.0,
+        "best": 0,
+        "baverage": 0.0
+    },
+    {
+        "id": 4,
+        "fullName": "Marcus Stoinis",
+        "country": "Australia",
+        "role": "All Rounder",
+        "matches": 96,
+        "runs": 3500,
+        "average": 39.7,
+        "strike": 126.3,
+        "hundreds": 9,
+        "fiftys": 17,
+        "wickets": 34,
+        "eco": 7.8,
+        "best": 3,
+        "baverage": 0.0
+    },
+    {
+        "id": 5,
+        "fullName": "Hazle wood",
+        "country": "Australia",
+        "role": "Bowler",
+        "matches": 114,
+        "runs": 780,
+        "average": 16.5,
+        "strike": 111.8,
+        "hundreds": 1,
+        "fiftys": 2,
+        "wickets": 146,
+        "eco": 6.45,
+        "best": 6,
+        "baverage": 0.0
+    },
+    {
+        "id": 6,
+        "fullName": "Maxwell",
+        "country": "Australia",
+        "role": "All Rounder",
+        "matches": 130,
+        "runs": 3777,
+        "average": 35.5,
+        "strike": 133.6,
+        "hundreds": 21,
+        "fiftys": 17,
+        "wickets": 52,
+        "eco": 8.77,
+        "best": 4,
+        "baverage": 0.0
+    },
+    {
+        "id": 7,
+        "fullName": "MS Dhoni",
+        "country": "India",
+        "role": "Batsman",
+        "matches": 360,
+        "runs": 3892,
+        "average": 52.5,
+        "strike": 128.6,
+        "hundreds": 63,
+        "fiftys": 92,
+        "wickets": 8,
+        "eco": 9.32,
+        "best": 175,
+        "baverage": 54.0
+    }
+]
+
+
+======Bat-Ranking===============================================================
+
+
+[
+    {
+        "id": 1,
+        "batsman": "virat",
+        "odi": 1,
+        "test": 2,
+        "t20": 3
+    },
+    {
+        "id": 2,
+        "batsman": "Ms Dhoni",
+        "odi": 2,
+        "test": 3,
+        "t20": 1
+    },
+    {
+        "id": 3,
+        "batsman": "Hazle wood",
+        "odi": 21,
+        "test": 27,
+        "t20": 19
+    },
+    {
+        "id": 4,
+        "batsman": "Aaron Finch",
+        "odi": 5,
+        "test": 7,
+        "t20": 4
+    },
+    {
+        "id": 5,
+        "batsman": "David Warner",
+        "odi": 6,
+        "test": 9,
+        "t20": 2
+    },
+    {
+        "id": 6,
+        "batsman": "Marcus Stoinis",
+        "odi": 15,
+        "test": 22,
+        "t20": 10
+    },
+    {
+        "id": 7,
+        "batsman": "Maxwell",
+        "odi": 12,
+        "test": 25,
+        "t20": 4
+    }
+]
+
+
+======Bowling-ranking=============================================================
+
+[
+    {
+        "id": 1,
+        "bowler": "Ravindra Jadeja",
+        "odi": 5,
+        "test": 27,
+        "t20": 3
+    },
+    {
+        "id": 2,
+        "bowler": "Jasprit Bumrah",
+        "odi": 2,
+        "test": 9,
+        "t20": 2
+    },
+    {
+        "id": 3,
+        "bowler": "Yuzvendra Chahal",
+        "odi": 32,
+        "test": 39,
+        "t20": 8
+    },
+    {
+        "id": 4,
+        "bowler": "Rashid Khan",
+        "odi": 43,
+        "test": 38,
+        "t20": 6
+    },
+    {
+        "id": 5,
+        "bowler": "Pat Cummins",
+        "odi": 25,
+        "test": 17,
+        "t20": 18
+    },
+    {
+        "id": 6,
+        "bowler": "Imran Tahir",
+        "odi": 45,
+        "test": 11,
+        "t20": 14
+    }
+]
+
+
+==========all-rounder=============================================================
+
+[
+    {
+        "id": 1,
+        "allRounder": "Kieron Pollard",
+        "odi": 23,
+        "test": 43,
+        "t20": 9
+    },
+    {
+        "id": 2,
+        "allRounder": "Andre Russell",
+        "odi": 34,
+        "test": 53,
+        "t20": 17
+    },
+    {
+        "id": 3,
+        "allRounder": "Shane Watson",
+        "odi": 29,
+        "test": 36,
+        "t20": 19
+    },
+    {
+        "id": 4,
+        "allRounder": "Dwyane Bravo",
+        "odi": 14,
+        "test": 21,
+        "t20": 5
+    },
+    {
+        "id": 5,
+        "allRounder": "Ravindra Jadeja",
+        "odi": 20,
+        "test": 31,
+        "t20": 2
+    },
+    {
+        "id": 6,
+        "allRounder": "sunil narine",
+        "odi": 11,
+        "test": 26,
+        "t20": 3
+    },
+    {
+        "id": 7,
+        "allRounder": "Rahul Tewatia",
+        "odi": 26,
+        "test": 48,
+        "t20": 7
+    }
+]
+
+
+===========news==================================================================
+
+
+[
+    {
+        "id": 1,
+        "news": "dhoni give retirement in all forms"
+    },
+    {
+        "id": 2,
+        "news": "india lost the 1st world cup at delhi"
+    },
+    {
+        "id": 4,
+        "news": "india lost the 1st world cup at delhi"
+    },
+    {
+        "id": 5,
+        "news": "dhoni give retirement in all forms"
+    },
+    {
+        "id": 6,
+        "news": "india won the match against pakistan"
+    }
+]
+
+
+=============live Score (or) live match===========================================
+
+
+[
+    {
+        "id": 1,
+        "league": "Cricket world T20 cup 2022",
+        "day": "Today",
+        "homeTeamPicture": "https://www.edsys.in/wp-content/uploads/India-Flag-PNG.png",
+        "team1": "IND",
+        "awayTeamPicture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpPBbS4C4gQdu-lKdcDID0tV4CQAsbLjC9yA&usqp=CAU",
+        "team2": "AUS",
+        "team1Score": "300-4",
+        "team2Score": "20-2",
+        "team1Overs": "50",
+        "team2Overs": "6.2",
+        "venue": "Bangalore",
+        "matchStatus": "Australia need 281 runs to win",
+        "matchNo": "T20 - 8 out of 32"
+    },
+    {
+        "id": 2,
+        "league": "Srilanka Tour Of NewZeland",
+        "day": "Today",
+        "homeTeamPicture": "https://www.therugbyblog.com/wp-content/uploads/newzealandallblacksofficiallogo.jpg",
+        "team1": "NZ",
+        "awayTeamPicture": "http://hukumusume.com/366/world/world_gazou/world_flag_pc_l/Scrn81.png",
+        "team2": "SRL",
+        "team1Score": "102-4",
+        "team2Score": "287-8",
+        "team1Overs": "18.4",
+        "team2Overs": "50",
+        "venue": "Sydney Cricket Ground",
+        "matchStatus": "NewZealand need 185 runs to win",
+        "matchNo": "ODI - 2 out of 4"
+    },
+    {
+        "id": 3,
+        "league": "WestIndies Tour Of SouthAfrica",
+        "day": "Today",
+        "homeTeamPicture": "https://cricshots.com/wp-content/uploads/2020/06/Cricket-West-Indies-logo.jpg.webp",
+        "team1": "WI",
+        "awayTeamPicture": "https://www.worldcupupdates.org/wp-content/uploads/2019/04/South-Africa-Cricket-Team-Logo.jpg",
+        "team2": "SA",
+        "team1Score": "189-4",
+        "team2Score": "156-8",
+        "team1Overs": "20",
+        "team2Overs": "20",
+        "venue": " Canberra",
+        "matchStatus": " WestIndies won by 33 runs ",
+        "matchNo": "T20I - 4 out of 5"
+    }
+]
+
+
+
