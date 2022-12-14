@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  max-width: 100%;
+  /* background-color: rgba(194, 255, 185, 0.74); */
+}
+#navbarNav{
+    padding-left: 4vw;
+}
+#iten{
+    padding-left: 2vw;
+}
+
+#rightside{
+    display: flex;
+    
+}
+#logo{
+    width: 40%;
+    transition: 0.2s ease-in-out;
+}
+#logo:hover{
+    /* width: 43%; */
+    transform: scale(1.1,1.1);
+}
+
+#navbar {
+    background-color: rgb(245, 245, 245);
+    top: 0;
+    left: 0;
+  width: 100%;
+  text-align: right;
+  /* background-image: url(https://thumbs.gfycat.com/OffensiveCaringCrocodileskink-size_restricted.gif); */
+  font-family: "Fjalla One", sans-serif;
+}
+
+#navbar a {
+    /* position: relative; */
+    right: 5%;
+  padding: 1%;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: larger;
+}
+
+#navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+#welcome-section {
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  
+  background-color: white;
+  height: 100vh; 
+  /* background-image: linear-gradient(to bottom,  #dddfd4, #fae596); */
+}
+
+#about {
+    text-align: center;
+    padding: 20% 0 0 0;
+    color: honeydew;
+    font-family: "Ubuntu", sans-serif;
+    font-size: xx-large;
+  
+}
+
+#welcome-section h3 {
+  font-size: large;
+  transform: translateY(-100%);
+}
+
+.nav-tool {
+  text-align: right;
+  font-size: xx-large;
+  color: black;
+  position: sticky;
+}
+
+.project {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  height: 50vw;
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+#projects {
+  background-color: white;
+  text-align: center;
+  padding-top: 5%;
+  border-top: 5px solid black;
+}
+
+#projects h1 {
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+.project-img {
+  height: calc(100% - 0.8rem);
+  width: 90%;
+  object-fit: cover;
+  margin: 4%;
+}
+
+.project-title3 {
+  margin-top: 10%;
+}
+
+.project-title2 {
+  margin-top: 10%;
+}
+
+.project-tile h3,
+.project-title3 h3,
+.project-title2 h3,
+.project-title1 h3 {
+  color: rgb(0, 0, 0);
+ 
+  width: 100%;
+  /* margin-left: 15%; */
+  /* height: 25px; */
+  border-radius: 25px;
+  /* padding: 2%; */
+  text-decoration: none;
+}
+
+.project-tile a,
+.project-title3 a,
+.project-title2 a,
+.project-title1 a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.view {
+  text-align: center;
+  width: 100%;
+  transform: translateY(-180%);
+}
+
+.view a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid rgb(250, 0, 0);
+  background-color: rgb(224, 17, 17);
+  border-radius: 25px;
+  padding: 1%;
+  text-decoration: none;
+}
+
+.view a:hover {
+  text-decoration: underline;
+}
+
+#social {
+  text-align: center;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  padding: 5%;
+  font-size: larger;
+}
+
+#social a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  padding: 5%;
+}
+
+#foot {
+  text-align: center;
+  margin: 3%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #welcome-section {
+    height: 50vh;
+  }
+  .project {
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  .view {
+    transform: translateY(-10%);
+    margin: 2.5%;
+  }
+  #social a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 600px) {
+  #welcome-section {
+    height: 65vh;
+  }
+  .project {
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  #social a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    padding: 1%;
+  }
+  #projects h1 {
+    font-size: x-large;
+    text-decoration: underline;
+  }
+  .project-tile h3,
+  .project-title3 h3,
+  .project-title2 h3,
+  .project-title1 h3 {
+    transform: translateX(-15%);
+  }
+}

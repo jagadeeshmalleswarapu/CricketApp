@@ -1,0 +1,13 @@
+#uname{
+    border: 2px solid white;
+    border-radius: 10px 0px;
+    padding: 1vw;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+#uname:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}

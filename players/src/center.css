@@ -1,0 +1,45 @@
+#imgpro{
+    background-color: rgb(228, 228, 228);
+    transition: 0.5s ease-in;
+    border-radius: 13px;
+  border: 2px solid rgb(228, 228, 228);
+  animation: glowing 1s ease-in-out infinite alternate;
+
+}
+#logdark{
+  height:60vw;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+#imgpro1{
+    padding-left: 20%;
+}
+#loginid{
+  
+    background-image: url('./img/Cyber-Security-PNG-Image-File.png');
+    
+    background-size: 65%;
+    background-position: -20px 130px;
+    background-repeat: no-repeat;
+    
+}
+
+/* @-webkit-keyframes imgpro{
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f0f, 0 0 40px #0ff, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+}
+} */
+#imgpro:hover{
+    box-shadow: 0 0 7px #fff, 0 0 8px #fff, 0 0 9px #f0f, 0 0 10px #0ff, 0 0 11px #e60073, 0 0 12px #e60073, 0 0 13px #e60073;
+    /* box-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6; */
+    border: 2px solid rgb(255, 0, 0);
+}
+.btn{
+    transition: 0.5s ease-in;
+}
+
+.btn:hover{
+    transition: 0.2s ease-in;
+    transform: scale(1.1,1.1);
+}

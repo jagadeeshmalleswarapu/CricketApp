@@ -1,0 +1,105 @@
+#cont{
+    padding-top: 150px;
+    padding-left: 3%;
+    width: 95%;
+}
+#cardcon{
+    background-color: rgb(16, 0, 85);
+    color: white;
+    transition: 0.2s ease-out; 
+    border-radius: 0;
+    
+}
+#cardcon:hover{
+    transform: translate(2%,-5%);
+    box-shadow: -15px 15px rgb(0, 221, 173);
+}
+#cardhead{
+    font-family: "barlow",sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 15px;
+    color: rgb(0, 221, 173);
+}
+#content{
+    padding-top: 10px;
+}
+#nav{
+    height: 90px;
+    background-color: rgb(16, 0, 85);
+    transition: 0.2s linear; 
+}
+/* #nav:hover{
+    background-color: white;
+} */
+#emidsimg{
+    /* color: rgb(16, 0, 85); */
+    /* background-color: white; */
+    filter: invert(100%);
+    transition: 0.2s linear;
+}
+
+#arepad{
+    padding-left: 280px;
+}
+#are{
+    color: rgb(255, 255, 255);
+    font-family: "barlow",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.2s linear;
+}
+#offerpad{
+    padding-left: 100px;
+}
+#offer{
+    color: rgb(255, 255, 255);
+    font-family: "barlow",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.2s linear;
+}
+#contactpad{
+    padding-left: 140px;
+}
+#contact{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    font-family: "barlow",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 35px 10px 35px;
+    transition: 0.1s linear;
+}
+#us{
+    transition: 0.1s;
+
+}
+#contact:hover #us,#contact:hover{
+    color: white;
+    background-color:rgb(16, 0, 85) ;
+}
+
+
+#emids{
+    padding-left: 3%;  
+}
+#nav:hover #emidsimg,#nav:hover {
+    filter: none;
+    background-color: white;
+}
+#nav:hover #are,#nav:hover{
+    color:rgb(16, 0, 85);
+}
+#nav:hover #offer,#nav:hover{
+    color:rgb(16, 0, 85);
+}
+#nav:hover #contact,#nav:hover{
+    color:rgb(16, 0, 85);
+    border-color: rgb(16, 0, 85);
+}
+#nav:hover{
+    padding-top: 60px;
+    /* height: 90px; */
+    padding-bottom: 200px;
+}
